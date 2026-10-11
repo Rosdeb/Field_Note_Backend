@@ -36,6 +36,14 @@ out/
 ### VS Code ###
 .vscode/
 
-# Local database secrets
+# Local database secrets & environment files
 application-local.properties
 .env
+.env.*
+*.env
+!.env.example
+!*.env.example
+
+### macOS ###
+.DS_Store
+
